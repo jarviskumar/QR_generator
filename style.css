@@ -1,0 +1,55 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+  
+
+.container{
+  margin-top:10px;
+  margin-bottom:20px;
+}
+#gen_btn{
+  background-color: #4e00a5;
+  border: none;
+  outline: none;
+  color: white;
+}
+#gen_btn:hover{
+  background-color:#7d0afe ;
+}
+.qr{
+  margin-top:2rem;
+  border: 2px dashed #4d00a3bb;
+  border-radius: 5px;
+  height:300px;
+}
+
+.output{
+  background-color:#d9d9d9;
+  color:black;
+  text-align: center;
+  padding:0px 10px;
+  margin-top: 5px;
+  float: left;
+}
+#image{
+  /* height: 200px;
+  width: 200px; */
+  border: none;!important
+  outline: none;!important
+  
+}
+.download_div{
+  cursor: pointer;
+  margin-bottom: 0.8rem;
+}
+.font-courier{
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+.link{
+  text-decoration: none;
+}
+
