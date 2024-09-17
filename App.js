@@ -13,10 +13,12 @@ function generate(){
   let download = document.getElementById('download_div');
 
   if(input=="https://"){
-    download_link.innerText="Please Write something in the the box";
+    let errorBox = document.getElementById("errorBox")
+    errorBox.removeAttribute("hidden")
+    errorBox.innerText="Please Write something in the the box";
   }
   else{
-
+    errorBox.setAttribute("hidden","true")
     loading.removeAttribute("hidden");
     download.setAttribute("hidden","true")
     image.setAttribute("hidden","true")
